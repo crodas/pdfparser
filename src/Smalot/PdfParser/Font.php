@@ -386,7 +386,7 @@ class Font extends Object
             $word         = $this->decodeContent($word, $loop_unicode);
         }
 
-        return implode(' ', $words);
+        return implode("\t\t", $words);
     }
 
     /**
